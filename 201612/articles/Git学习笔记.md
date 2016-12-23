@@ -54,16 +54,16 @@ $ git init
 * 工作区就是你在电脑里能看到的目录。
 * 工作区有一个隐藏目录`.git`，这个不算工作区，而是Git的版本库。
  
-![](https://github.com/SoaringhawkCheng/markdown/blob/master/learn/linux/git/0.jpg?raw=true)
+![](https://github.com/SoaringhawkCheng/blog-materials/blob/master/201612/images/0.jpg?raw=true)
 
 ### 添加文件到Git仓库
 * 第一步是用`git add`把文件添加进去，实际上就是把文件修改添加到暂存区(stage)；
 
-![](https://github.com/SoaringhawkCheng/markdown/blob/master/learn/linux/git/1.jpg?raw=true)
+![](https://github.com/SoaringhawkCheng/blog-materials/blob/master/201612/images/1.jpg?raw=true)
 
 * 第二步是用`git commit`提交更改，实际上就是把暂存区的所有内容提交到当前分支。
 
-![](https://github.com/SoaringhawkCheng/markdown/blob/master/learn/linux/git/2.jpg?raw=true)
+![](https://github.com/SoaringhawkCheng/blog-materials/blob/master/201612/images/2.jpg?raw=true)
 
 因为我们创建Git版本库时，Git自动为我们创建了唯一一个master分支，所以，现在，git commit就是往master分支上提交更改。
 
@@ -157,7 +157,7 @@ $ git clone git@github.com:username/*.git
 ### 版本信息
 HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭.
 
-![](https://github.com/SoaringhawkCheng/markdown/blob/master/learn/linux/git/3.jpg?raw=true)
+![](https://github.com/SoaringhawkCheng/blog-materials/blob/master/201612/images/3.jpg?raw=true)
 
 退回上个版本：
 
