@@ -21,7 +21,7 @@ shift+ctrl+v | 粘贴
 切换屏幕2|command+[ 或 command+]
 查看历史命令|command+;
 查看剪贴板历史|command+shift+h
-清空屏幕|command+r
+清空屏幕|command+r.
 
 
 
